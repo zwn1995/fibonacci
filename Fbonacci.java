@@ -1,16 +1,17 @@
 package fibonacci;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 
 public class Fbonacci {
 	public static void main(String[] args) {
 	    // TODO Auto-generated method stub
 	    BigInteger[] fibonacci=null;
 	    fibonacci=fibonacci(200);
-	    System.out.println(Arrays.toString(fibonacci));
+	    for(int i=0;i<200;i++){
+	    System.out.println(fibonacci[i]);
+	    }
 	}
-	//Ñ­»·
+	//å¾ªçŽ¯
 	public static BigInteger[] fibonacci(int length){
 		BigInteger[] fibonacci=new BigInteger[length];
 	    fibonacci[0]=new BigInteger("1");
